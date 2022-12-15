@@ -1,0 +1,63 @@
+{
+   "QueryId": "AEBQEANI7BPS5IR3IKZKOBT37P6PJ5CBQQVV4BROBW3HNX4YA4UYKCEFUKM36HQ",
+   "Rows": [
+      {
+         "Data": [
+            {
+               "ScalarValue": "1"
+            },
+            {
+               "ScalarValue": "weight"
+            },
+            {
+               "ScalarValue": "2022-12-14 20:47:15.525000000"
+            },
+            {
+               "ScalarValue": "48.0"
+            }
+         ]
+      }
+   ],
+   "ColumnInfo": [
+      {
+         "Name": "id",
+         "Type": {
+            "ScalarType": "VARCHAR"
+         }
+      },
+      {
+         "Name": "measure_name",
+         "Type": {
+            "ScalarType": "VARCHAR"
+         }
+      },
+      {
+         "Name": "time",
+         "Type": {
+            "ScalarType": "TIMESTAMP"
+         }
+      },
+      {
+         "Name": "measure_value::double",
+         "Type": {
+            "ScalarType": "DOUBLE"
+         }
+      }
+   ],
+   "QueryStatus": {
+      "ProgressPercentage": 100.0,
+      "CumulativeBytesScanned": 17,
+      "CumulativeBytesMetered": 10000000
+   },
+   "ResponseMetadata": {
+      "RequestId": "2WCOQTGZYR5LVOYWS4EKI7ID3I",
+      "HTTPStatusCode": 200,
+      "HTTPHeaders": {
+         "x-amzn-requestid": "2WCOQTGZYR5LVOYWS4EKI7ID3I",
+         "content-type": "application/x-amz-json-1.0",
+         "content-length": "549",
+         "date": "Wed, 14 Dec 2022 20:47:15 GMT"
+      },
+      "RetryAttempts": 0
+   }
+}
