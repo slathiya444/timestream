@@ -1,0 +1,91 @@
+{
+   "QueryId": "AEBQEANJAKEUDMTI6FVGGOBLYHHSNA5NXAOYLZVGBCLSVPXEVDYAKHFI6XAYMSY",
+   "Rows": [
+      {
+         "Data": [
+            {
+               "ScalarValue": "Daniel"
+            },
+            {
+               "ScalarValue": "1"
+            },
+            {
+               "ScalarValue": "weight"
+            },
+            {
+               "ScalarValue": "2022-12-16 16:09:25.238000000"
+            },
+            {
+               "ScalarValue": "48.0"
+            }
+         ]
+      },
+      {
+         "Data": [
+            {
+               "ScalarValue": "Sagar"
+            },
+            {
+               "ScalarValue": "2"
+            },
+            {
+               "ScalarValue": "weight"
+            },
+            {
+               "ScalarValue": "2022-12-16 16:09:25.238000000"
+            },
+            {
+               "ScalarValue": "49.0"
+            }
+         ]
+      }
+   ],
+   "ColumnInfo": [
+      {
+         "Name": "name",
+         "Type": {
+            "ScalarType": "VARCHAR"
+         }
+      },
+      {
+         "Name": "id",
+         "Type": {
+            "ScalarType": "VARCHAR"
+         }
+      },
+      {
+         "Name": "measure_name",
+         "Type": {
+            "ScalarType": "VARCHAR"
+         }
+      },
+      {
+         "Name": "time",
+         "Type": {
+            "ScalarType": "TIMESTAMP"
+         }
+      },
+      {
+         "Name": "measure_value::double",
+         "Type": {
+            "ScalarType": "DOUBLE"
+         }
+      }
+   ],
+   "QueryStatus": {
+      "ProgressPercentage": 100.0,
+      "CumulativeBytesScanned": 45,
+      "CumulativeBytesMetered": 10000000
+   },
+   "ResponseMetadata": {
+      "RequestId": "B3KK4YUDP7TUVTSWKLLXQGVIQY",
+      "HTTPStatusCode": 200,
+      "HTTPHeaders": {
+         "x-amzn-requestid": "B3KK4YUDP7TUVTSWKLLXQGVIQY",
+         "content-type": "application/x-amz-json-1.0",
+         "content-length": "773",
+         "date": "Fri, 16 Dec 2022 16:09:26 GMT"
+      },
+      "RetryAttempts": 0
+   }
+}

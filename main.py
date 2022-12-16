@@ -45,9 +45,30 @@ if __name__ == "__main__":
                         'Name': 'id',
                         'Value': '1'
                     },
+                    {
+                        'Name': 'name',
+                        'Value': 'Daniel'
+                    },
                 ],
                 'MeasureName': 'weight',
                 'MeasureValue': '48',
+                'MeasureValueType': 'DOUBLE',
+                'Time': str(int(round(time.time() * 1000))),
+                'TimeUnit': 'MILLISECONDS'
+            },
+            {
+                'Dimensions': [
+                    {
+                        'Name': 'id',
+                        'Value': '2'
+                    },
+                    {
+                        'Name': 'name',
+                        'Value': 'Sagar'
+                    },
+                ],
+                'MeasureName': 'weight',
+                'MeasureValue': '49',
                 'MeasureValueType': 'DOUBLE',
                 'Time': str(int(round(time.time() * 1000))),
                 'TimeUnit': 'MILLISECONDS'
